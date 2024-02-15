@@ -1,0 +1,137 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.navigationArea{
+    height: 5rem;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    
+}
+.colorBox{
+    
+    background-color: beige;
+    height: 2.5rem;
+    width: 20rem;
+    display: flex;
+    margin-left:5rem;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.color{
+    height: 1.7rem;
+    width:2.5rem;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.violet{
+    background-color:violet;
+}
+.actionBox{
+    background-color: beige;
+    height: 2.5rem;
+    width: 7rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.deleteBtn{
+    font-size: larger;
+    color: black;
+}
+.addBtn{
+    font-size: larger;
+}
+.mainArea{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    margin: 2rem 1rem;
+}
+.ticket-cont{
+    height: 10rem;
+    width: 15rem;
+    background-color: yellow;
+    position: relative;
+    background-color: var(--bgColor);
+}
+
+.ticket-color{
+    height: 1rem;
+}
+
+.ticket-id{
+    height: 1.5rem;
+    font-weight: 600;
+    font-size: 0.75rem;
+    background-color: aquamarine;
+}
+
+.ticket-area{
+    padding: 3px;
+    height: calc(10rem - 1rem - 1.5rem);
+    font-size: 1rem;
+    outline: none;
+    border:2px solid grey
+}
+.modalContain{
+    background-color:yellow;
+    height:50vh;
+    width: 50vw;
+    display: none;
+    position: fixed;
+    left:25vw;
+    top:25vh;
+    border: 2px solid black;
+    resize: none;
+    
+}
+.textArea{
+    height: 100%;
+    width: 75%;
+    font-size: 2rem;
+    padding: 2rem;
+    border-right: 2px solid grey;
+    
+}
+.priorityColorArea{
+  height: 100%;
+  width:25%;
+  background-color: cadetblue;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.priority-color{
+    height: 1.7rem;
+    width:2.5rem;
+}
+.active{
+    border: 2px solid yellow;
+}
+.lockBtn{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+
+
+
+
